@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: brown;
+  margin: 0px;
+}
+.h3 {
+  background-color: fuchsia !important;
+}
+#h3 {
+  background-color: orangered;
+}
+.h3 {
+  background-color: fuchsia;
+}
+/* any h1 inside class div1 */
+.div1 h1 {
+  color: red;
+}
+
+.div3 input[type="button"] {
+  background-color: red;
+}
+
+/* p,
+h1 {
+  color: green;
+} */
+
+.div4 ul li:first-child {
+  background: blue;
+}
+.div4 ul li:last-child {
+  background: palevioletred;
+}
+
+/* not inportant */
+.div4 ul li:nth-child(3) {
+  background: yellow;
+}
+
+.div4 ul li:nth-child(even) {
+  background: rgb(85, 45, 45);
+}
+/*  didnt work
+.div4 input::content("mama") {
+  color: green;
+} */
+
+/* any p directl child of class div4  */
+.div4 > p {
+  background-color: DodgerBlue;
+}
+
+li + p {
+  color: aqua;
+}
+
+li ~ p {
+  background-color: rebeccapurple;
+}
+
+/* sizing */
+#div6 {
+  display: inline-block;
+  width: 50%;
+  background-color: green;
+  border: 50px solid rebeccapurple;
+  box-sizing: border-box;
+}
+#div7 {
+  display: inline-block;
+
+  width: 50%;
+  background-color: red;
+  border: 50px solid aqua;
+  box-sizing: border-box;`
+}
